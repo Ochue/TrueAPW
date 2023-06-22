@@ -1,0 +1,63 @@
+
+body{
+    background-color: darkgrey;
+}
+
+.navbar {
+    margin-bottom: 20px;
+  }
+  
+ 
+  h1 {
+    text-align: center;
+  }
+  
+
+  .card {
+    margin-bottom: 20px;
+  }
+  
+
+  .btn-primary {
+    width: 100%;
+  }
+  
+
+  .carousel-item {
+    display: flex;
+    justify-content: center;
+  }
+  
+
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+
+  .carousel-inner .carousel-item:not(.active) {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+
+  .carousel-inner .carousel-item.active {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+  }
+
+  .content-description {
+    background-image: url("ArbolDeku.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .container-description-inner {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
