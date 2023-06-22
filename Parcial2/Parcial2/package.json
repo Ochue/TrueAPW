@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.3.0"
+  },
+  "name": "parcial2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "purgecss -css sass/style.css --content bootstrap.html --output sass/reducido.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
