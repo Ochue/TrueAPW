@@ -1,0 +1,69 @@
+#pokemonContainer {
+  margin-top: 20px;
+}
+
+.card {
+  width: 18rem;
+  margin: 10px;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.modal-body {
+  text-align: center;
+}
+
+.list-group-item {
+  text-align: left;
+}
+
+#paginationNav {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#previousPage .page-link,
+#nextPage .page-link,
+.page-item.active .page-link {
+  font-size: 1.25rem;
+  padding: 0.5rem 1rem;
+}
+
+.page-item.active .page-link {
+  z-index: 1;
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.page-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+  /*Css de la pagina principal que es la index*/
+  body {
+    background-color: #e04242; /* Color de fondo agradable al ojo humano */
+  }
+  
+  .jumbotron {
+    background-size: cover;
+    background-position: center;
+    color: #000000;
+  }
+  
+  .display-4 {
+    font-size: 3rem; /* Tamaño de fuente grande */
+  }
+  
+  .lead {
+    font-size: 1.25rem; /* Tamaño de fuente más grande */
+  }
+  
+  
